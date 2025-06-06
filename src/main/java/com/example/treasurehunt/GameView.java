@@ -39,7 +39,7 @@ public class GameView implements GameController.GameListener {
     private GridPane gameGrid;
     private HBox controls;
     private VBox statsPanel;
-    private VBox scoreBox, treasuresBox, movesBox, hintsBox, obstaclesBox;
+    private VBox scoreBox, treasuresBox;
     private Label scoreLabel, treasuresFoundLabel, movesLabel, hintsUsedLabel, obstaclesHitLabel, messageLabel;
 
     /**
