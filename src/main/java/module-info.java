@@ -5,4 +5,5 @@ module com.example.treasurehunt {
 
     opens com.example.treasurehunt to javafx.fxml;
     exports com.example.treasurehunt;
+    exports com.example.treasurehunt.models;
 }
